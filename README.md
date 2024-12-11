@@ -1,0 +1,1 @@
+# spring-specifications-with-query
