@@ -17,7 +17,7 @@ public class UserPerMetierController {
 	private final UserPerMetierService userPerMetierService;
 	
 	public List<User> getUsermatchingCriteria(@RequestParam("ids") Long[] criterias){
-		return userPerMetierService.filterUserPermetier(criterias);
+		return userPerMetierService.filterUserPerMetier(criterias);
 		
 	}
 
