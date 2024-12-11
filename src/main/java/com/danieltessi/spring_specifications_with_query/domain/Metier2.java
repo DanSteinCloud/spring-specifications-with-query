@@ -1,5 +1,11 @@
 package com.danieltessi.spring_specifications_with_query.domain;
 
-public class Metier2 {
+import jakarta.persistence.Entity;
+import lombok.Data;
 
+@Entity
+@Data
+public class Metier2 {
+  long id;
+  String numId;
 }

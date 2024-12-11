@@ -1,5 +1,12 @@
 package com.danieltessi.spring_specifications_with_query.domain;
 
-public interface Repere {
+import jakarta.persistence.Entity;
+import lombok.Data;
 
+@Entity
+@Data
+public class Repere {
+	long id;
+	String numId;
+	String idperGroup;
 }
